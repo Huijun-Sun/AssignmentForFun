@@ -137,6 +137,7 @@ public class BasicStringsTest {
         // When
         String actual = basicStrings.reverseCase(string);
         // Then
+        System.out.println(actual);
         Assert.assertEquals(expected, actual);
     }
 
@@ -189,8 +190,8 @@ public class BasicStringsTest {
     @Test
     public void oneAtATimeTest3(){
         // Given
-        String string1 = "Chr 9.0";
-        String string2 = "oot";
+        String string1 = "Caaa .";
+        String string2 = "hrrr70";
         String expected = "Chararar 7.0";
         // When
         String actual = basicStrings.oneAtATime(string1, string2);
